@@ -24,5 +24,7 @@ def join_nested_strings(src)
   	  row_index += 1
   	end
 
-  	outer_results.join(" ") # => ["Sporty", "Fajita Mix", "Rosemary"]
+  	print outer_results # => ["Sporty", "Fajita Mix", "Rosemary"]
 end
+src=[1,"a","c"]
+join_nested_strings (src)
